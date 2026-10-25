@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registration form and upcoming events table.">
+    <meta name="author" content="Pranav Mishra">
+    <link rel="icon" type="image/x-icon" href="https://via.placeholder.com/16">
+    <title>Register - Week 4 Assignment</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="register.html">Register</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <h1>Registration Form</h1>
+
+        <form action="#" method="POST">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <br>
+            <div>
+                <label for="userEmail">Email Address:</label>
+                <input type="email" id="userEmail" name="userEmail" required>
+            </div>
+            <br>
+            <div>
+                <label for="userPassword">Password:</label>
+                <input type="password" id="userPassword" name="userPassword" required>
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <br>
+            <div>
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <br>
+            <div>
+                <label>Hobbies:</label><br>
+                <input type="checkbox" id="coding" name="hobbies" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="sports" name="hobbies" value="sports">
+                <label for="sports">Sports</label>
+            </div>
+            <br>
+            <div>
+                <label for="course">Select Course:</label>
+                <select id="course" name="course">
+                    <option value="cse">B.Tech CSE</option>
+                    <option value="ece">B.Tech ECE</option>
+                    <option value="me">B.Tech ME</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40"
+                    placeholder="Type your message here..."></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit Registration</button>
+            </div>
+        </form>
+
+        <hr>
+
+        <h2>Upcoming Events</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Development Workshop</td>
+                    <td>15th Nov 2026</td>
+                    <td>Lab 3</td>
+                </tr>
+                <tr>
+                    <td>Tech Symposium</td>
+                    <td>20th Nov 2026</td>
+                    <td>Main Auditorium</td>
+                </tr>
+                <tr>
+                    <td>Hackathon 2026</td>
+                    <td>01st Dec 2026</td>
+                    <td>IT Block</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Events Scheduled: 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+</body>
+
+</html>
