@@ -1,35 +1,45 @@
-/* 1. Universal Selector (*) - Sub par apply hota hai */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Task 5.3: Google Font, Colors, Base Font-Size & Line-Height */
 body {
-    font-family: sans-serif;
-    background-color: #f8fafc;
-    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f5f9;
+    color: #334155;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 24px;
 }
 
-/* 2. Element Selector (h1) - HTML tag par apply hota hai */
-h1 {
-    color: #ffffff;
-    margin-bottom: 10px;
-}
-
-/* 3. ID Selector (#hero) - Specific ID par apply hota hai */
 #hero {
     background-color: #1e293b;
     color: #ffffff;
-    padding: 30px;
+    padding: 32px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
-/* 4. Class Selector (.card) - Specific Class par apply hota hai */
+/* Task 5.3: Specific Font Sizes & Colors */
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
 .card {
     background-color: #ffffff;
     border: 1px solid #cbd5e1;
-    padding: 20px;
+    padding: 24px;
     border-radius: 8px;
 }
