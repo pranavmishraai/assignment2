@@ -1,6 +1,35 @@
+/* 1. Universal Selector (*) - Sub par apply hota hai */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #1e49ac;
+    font-family: sans-serif;
+    background-color: #f8fafc;
     padding: 20px;
+}
+
+/* 2. Element Selector (h1) - HTML tag par apply hota hai */
+h1 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* 3. ID Selector (#hero) - Specific ID par apply hota hai */
+#hero {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* 4. Class Selector (.card) - Specific Class par apply hota hai */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    padding: 20px;
+    border-radius: 8px;
 }
