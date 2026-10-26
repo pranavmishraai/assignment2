@@ -1,4 +1,3 @@
-/* Task 5.4: Define Colors and Spacing in :root Variables */
 :root {
     /* Colors */
     --bg-color: #f1f5f9;
@@ -25,7 +24,6 @@
     box-sizing: border-box;
 }
 
-/* Using CSS Variables via var() */
 body {
     font-family: var(--font-main);
     background-color: var(--bg-color);
@@ -54,7 +52,7 @@ h1 {
 h2 {
     font-size: 1.5rem;
     color: var(--primary-color);
-    margin-bottom: var(--space-sm);
+    margin-bottom: var(--space-md);
 }
 
 .card {
@@ -62,4 +60,12 @@ h2 {
     border: 1px solid var(--border-color);
     padding: var(--space-lg);
     border-radius: 8px;
+}
+
+.color-reasons {
+    padding-left: 20px;
+}
+
+.color-reasons li {
+    margin-bottom: var(--space-sm);
 }
